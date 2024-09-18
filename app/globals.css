@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+}
+
+@layer base {
+    @font-face {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 400;
+      src: url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'");
+    }
+  }
