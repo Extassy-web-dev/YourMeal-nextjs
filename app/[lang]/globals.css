@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #f9f9f9;
+  height: 100vh;
+
+  .box-bucket::-webkit-scrollbar {
+    width: 1px;
+  }
+}

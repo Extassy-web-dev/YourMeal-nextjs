@@ -1,0 +1,13 @@
+{
+	"header": {
+		"mainTitle": "Только самые",
+		"secondTitle": "сочные бургеры!",
+		"delivery": "Бесплатная доставка от 599₽"
+	},
+	"basket": {
+		"mainTitle": "Корзина",
+		"total": "Итого",
+		"addOrder": "Добавить заказ",
+		"freeDelivery": "Бесплатная доставка"
+	}
+}

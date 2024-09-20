@@ -1,0 +1,13 @@
+{
+	"header": {
+		"mainTitle": "Only the ",
+		"secondTitle": "juiciest burgers!",
+		"delivery": "Free shipping from 599₽"
+	},
+	"basket": {
+		"mainTitle": "Basket",
+		"total": "Total",
+		"addOrder": "Place an order",
+		"freeDelivery": "Free delivery"
+	}
+}
