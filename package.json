@@ -11,6 +11,7 @@
   "dependencies": {
     "@formatjs/intl": "^2.10.4",
     "@formatjs/intl-localematcher": "^0.5.4",
+    "mongodb": "^6.9.0",
     "negotiator": "^0.6.3",
     "next": "14.2.11",
     "react": "^18",

@@ -4,11 +4,16 @@ import ProductCard from "@/components/ProductCard";
 import { getDictionary } from "./dictionaries";
 import Accordion from "@/components/Accordion";
 import Image from "next/image";
+import cheeseburger from "../../public/free-icon-cheeseburger-2362255.png"
+import snacks from "../../public/free-icon-onion-2362361.png"
+import hot_dog from "../../public/free-icon-hotdog-sandwich-2362313.png"
+import combo from "../../public/free-icon-fast-food-2362274.png"
+
 
 
 type Category = {
     id: number,
-    img: string,
+    img: any,
     active: boolean,
     lang: any,
 
@@ -38,7 +43,7 @@ export default async function Home({
     const categoriesData: Category[] = [
         {
             id: 1,
-            img: "/free-icon-cheeseburger-2362255.png",
+            img: cheeseburger,
             active: true,
             lang: {
                 ru: "Бургеры",
@@ -47,7 +52,7 @@ export default async function Home({
         },
         {
             id: 2,
-            img: "/free-icon-onion-2362361.png",
+            img: snacks,
             active: false,
             lang: {
                 ru: "Закуски",
@@ -57,7 +62,7 @@ export default async function Home({
         },
         {
             id: 3,
-            img: "/free-icon-hotdog-sandwich-2362313.png",
+            img: hot_dog,
             active: false,
             lang: {
                 ru: "Хот-доги",
@@ -67,7 +72,7 @@ export default async function Home({
         },
         {
             id: 4,
-            img: "/free-icon-fast-food-2362274.png",
+            img: combo,
             active: false,
             lang: {
                 ru: "Комбо",

@@ -27,7 +27,6 @@ export function middleware(request: NextRequest) {
 			!pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
 	);
 
-
 	if (
 		pathnameIsMissingLocale &&
 		pathname !== "/robots.txt" &&

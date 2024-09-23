@@ -1,7 +1,7 @@
 import { getDictionary } from "./dictionaries";
 import "./globals.css";
 import Image from "next/image";
-
+import logo from "../../public/logo.svg"
 
 
 export default async function RootLayout({
@@ -16,14 +16,14 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <link rel="icon" href={"/logo.svg"} sizes="any" />
+      <link rel="icon" href={"../../public/logo.svg"} sizes="any" />
       <title>YourMeal</title>
       <body>
         <header className="w-full max-w-full">
           <div className="w-full max-w-full h-[550px] bg-[#FFAB08] rounded-b-[100%]">
             <div className="flex justify-center items-center pt-[20px] gap-2">
               <h1 className="text-white text-[20px] ">YourMeal</h1>
-              <Image width={30} height={30} src={"/logo.svg"} alt="logo" />
+              <Image width={30} height={30} src={logo} alt="logo" />
             </div>
             <div className="w-full max-w-full flex justify-center items-center gap-6">
               <Image width={300} height={300} src={"/burger.png"} alt="burger" />
