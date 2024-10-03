@@ -10,7 +10,7 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="absolute top-[20px] right-[20px]">
+    <div className="">
       <div className="border border-gray-300 rounded-lg overflow-hidden">
         <button
           onClick={toggleAccordion}

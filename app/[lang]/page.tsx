@@ -8,6 +8,7 @@ import cheeseburger from "../../public/free-icon-cheeseburger-2362255.png"
 import snacks from "../../public/free-icon-onion-2362361.png"
 import hot_dog from "../../public/free-icon-hotdog-sandwich-2362313.png"
 import combo from "../../public/free-icon-fast-food-2362274.png"
+import Link from "next/link";
 
 
 
@@ -264,7 +265,10 @@ export default async function Home({
     return (
         <>
             <div className="main max-w-full w-[185vh] m-auto h-full">
+                <div className="absolute top-[50px] right-[20px] flex items-start gap-4">
                 <Accordion />
+                <button className="w-[100px] h-[45px] rounded-xl bg-gray-200"><Link href="/admin/dashboard/">Dashboard</Link></button>
+                </div>
                 <div className="category w-full max-w-full py-[100px] flex justify-between gap-5">
                     {
                         categoriesData.map((item: Category) => (
